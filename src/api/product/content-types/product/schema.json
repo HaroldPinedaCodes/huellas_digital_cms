@@ -48,7 +48,7 @@
     "condition": {
       "type": "enumeration",
       "enum": [
-        "activ",
+        "active",
         "out_of_stock",
         "discontinued"
       ]

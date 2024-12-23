@@ -509,7 +509,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     brand: Schema.Attribute.Relation<'manyToOne', 'api::brand.brand'>;
     category: Schema.Attribute.Relation<'manyToOne', 'api::category.category'>;
     condition: Schema.Attribute.Enumeration<
-      ['activ', 'out_of_stock', 'discontinued']
+      ['active', 'out_of_stock', 'discontinued']
     >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
